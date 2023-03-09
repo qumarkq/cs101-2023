@@ -22,5 +22,6 @@ int main() {
     for (int i = 0 ;i < (sizeof(a)/sizeof(a[0])) ;i++) {
         printf("%d",a_read[i]);
     }
+    fclose(fp);
     return 0 ;
 }
